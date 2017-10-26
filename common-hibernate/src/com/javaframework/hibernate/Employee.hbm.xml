@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+    <hibernate-mapping>
+         <class name="com.javaframework.hibernate.Employee" table="t_employee">
+             <!--<id name="id">-->
+                 <!--<generator class="assigned"></generator>-->
+             <!--</id>-->
+             <id name="id" column="id" type="long">
+                 <generator class="org.hibernate.id.SequenceGenerator">
+                     <param name="sequence">s_employee</param>
+                 </generator>
+             </id>
+
+             <property name="code"></property>
+             <property name="name"></property>
+         </class>
+    </hibernate-mapping>
