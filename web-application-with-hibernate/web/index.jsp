@@ -8,9 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>馨愿网</title>
   </head>
   <body>
-  $END$
+  <p>发布您的小小心愿，让我为您实现！</p>
+  <form action="register.jsp" method="post">
+    <input type="text" name="user-name">
+    <input type="password" name="user-password">
+    <input type="submit">
+  </form>
   </body>
 </html>
