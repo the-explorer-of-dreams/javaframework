@@ -8,10 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bfc40700-5869-4055-969f-4894083a6f79" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application-with-hibernate/src/com/webapplication/hibernate/UserDao.java" afterPath="$PROJECT_DIR$/web-application-with-hibernate/src/com/webapplication/hibernate/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application-with-hibernate/web-application-with-hibernate.iml" afterPath="$PROJECT_DIR$/web-application-with-hibernate/web-application-with-hibernate.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application-with-hibernate/web/index.jsp" afterPath="$PROJECT_DIR$/web-application-with-hibernate/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-application-with-hibernate/web/register.jsp" afterPath="$PROJECT_DIR$/web-application-with-hibernate/web/register.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -468,12 +464,20 @@
       <workItem from="1509094129059" duration="1698000" />
       <workItem from="1509355567917" duration="1919000" />
       <workItem from="1510665623782" duration="183000" />
-      <workItem from="1510665840193" duration="5415000" />
+      <workItem from="1510665840193" duration="5444000" />
     </task>
+    <task id="LOCAL-00001" summary="add lib and pass the debug">
+      <created>1510671317195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510671317195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24408000" />
+    <option name="totallyTimeSpent" value="24437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,6 +529,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add lib and pass the debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lib and pass the debug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
