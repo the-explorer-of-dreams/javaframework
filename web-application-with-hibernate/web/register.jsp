@@ -6,13 +6,16 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="com.webapplication.hibernate.UserDao" %>
-<jsp:useBean id="obj" class="com.webapplication.hibernate.User"></jsp:useBean>
-<jsp:setProperty property="*" name="obj" />
-
+<%@page import="com.webapplication.hibernate.User,
+                com.webapplication.hibernate.UserDao"%>
 <%
-    int i = UserDao.save(obj);
-    if (i > 0) {
-        out.print("You are successfully registered");
-    }
+    out.println("into register.jsp");
+    String name = request.getParameter("name");
+    String password =  request.getParameter("password");
+    out.println("name="+name+":password="+password);
+    User user  = new User();
+    user.setName(name);
+    user.setPassword(password);
+    out.println("user.getName()="+user.getName());
+    UserDao.save(user);
 %>

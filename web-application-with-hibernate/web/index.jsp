@@ -13,8 +13,8 @@
   <body>
   <p>发布您的小小心愿，让我为您实现！</p>
   <form action="register.jsp" method="post">
-    <input type="text" name="user-name">
-    <input type="password" name="user-password">
+    <input type="text" name="name">
+    <input type="password" name="password">
     <input type="submit">
   </form>
   </body>
