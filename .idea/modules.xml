@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/common-hibernate/common-hibernate.iml" filepath="$PROJECT_DIR$/common-hibernate/common-hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns/design-patterns.iml" filepath="$PROJECT_DIR$/design-patterns/design-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaframework.iml" filepath="$PROJECT_DIR$/javaframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisdemo/mybatisdemo.iml" filepath="$PROJECT_DIR$/mybatisdemo/mybatisdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/web-application-with-hibernate/web-application-with-hibernate.iml" filepath="$PROJECT_DIR$/web-application-with-hibernate/web-application-with-hibernate.iml" />
     </modules>
   </component>

@@ -1,0 +1,9 @@
+CREATE TABLE t_user (
+  id number(10) PRIMARY key,
+  name varchar2(64),
+  dept varchar2(254),
+  website varchar2(254),
+  phone varchar2(16)
+) ;
+
+INSERT INTO t_user VALUES ('1', 'mybatisdemo', 'Tech', 'http://www.yiibai.com', '13800009988');
